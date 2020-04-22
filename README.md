@@ -35,7 +35,7 @@ Langkah-langkah pembuatan Buku Alamat:
 ![image](https://user-images.githubusercontent.com/62319661/79251935-0e247880-7eab-11ea-986d-68242bef94e8.png)
 14. selanjutnya membuat database. Untuk melakukan hal ini, buka aplikasi Phpmyadmin melalui browser dengan alamat localhost/phpmyadmin. Buatlah database baru dengan nama buku_alamat.
 ![image](https://user-images.githubusercontent.com/62319661/79252429-c94d1180-7eab-11ea-9cfe-39694eaabc2f.png)
-15. Buatlah data sample dengan mengeksekusi kode sql berikut ini: INSERT INTO `alamat` (`id`, `nama`, `hp`, `email`, `alamat`, `kota`, `provinsi`,`kodepos`) VALUES (NULL, 'Syarafina', '082325435347', 'ara@gmail.com', 'sorosutan', 'Yogyakarta', 'DIYogyakarta','55162');
+15. Buatlah contoh data sample dengan mengeksekusi kode sql berikut ini: INSERT INTO `alamat` (`id`, `nama`, `hp`, `email`, `alamat`, `kota`, `provinsi`,`kodepos`) VALUES (NULL, 'Syarafina', '082325435347', 'ara@gmail.com', 'sorosutan', 'Yogyakarta', 'DIYogyakarta','55162');
 16. Tahap terakhir adalah mendistribusikan aplikasi Angular agar dapat dijalankan pada browser. Jalankan perintah berikut ini: ng build --base-href ./
 ![image](https://user-images.githubusercontent.com/62319661/79257196-7f682980-7eb3-11ea-8781-d4ccb317f665.png)
 17. Perintah tersebut akan menciptakan folder dist pada proyek Angular. Pindahkan isi folder tersebut pada folder htdocs pada Xampp. Pastikan nama folder pada htdocs adalah buku-alamat. Akses melalui browser dengan alamat localhost/buku-alamat.
